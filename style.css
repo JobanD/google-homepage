@@ -1,5 +1,41 @@
+#item {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    height: 1%;
+}
+
+.navbar {
+    margin-top: 6px;
+    margin-bottom: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 10px;
+}
+
+li {
+    padding: 0.3% 15px 0 1px;
+}
+
+.navbar li:nth-child(2) {
+    margin-right: auto;
+}
+
+.navbar li:nth-last-child(-n+4) {
+    color: grey;
+    text-align: right;
+    text-decoration: none;
+}
+
 img {
     display: block;
     margin: auto;
-    padding-top: 10%;
+    padding-top: 8.4%;
 }
